@@ -40,6 +40,10 @@ def uniqueUpdate(data1, data2):
     for [k, v2] in data2:
         # Check if there is a key-value
         # pair with key = k in data1
+        kfound= false 
+        for [k1,v1]  in data1:
+            if k1===k
+            kfound = true
         if k in data1:
             v1 = data1[k]
             # (k, v1) in dict1
